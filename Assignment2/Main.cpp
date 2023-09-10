@@ -38,7 +38,6 @@ int main()
     return 0;
 }
 
-// main menu
 // Pre-Conditon: no parameters
 // Post-Condition: no return. displays main menu and calls specific functions for the case options
 void mainMenu()
@@ -95,10 +94,10 @@ void quadraticExpression()
         cout << "\t\n1 > Quadratic Menu\n";
         cout << "===========================================================\n";
         cout << "1. Display the expression\n";
-        cout << "2. Set coefficient(a)\n";
-        cout << "3. Set coefficient(b)\n";
-        cout << "4. Set coefficient(c)\n";
-        cout << "5. Get evaluation(x)\n";
+        cout << "2. Set coefficient (a)\n";
+        cout << "3. Set coefficient (b)\n";
+        cout << "4. Set coefficient (c)\n";
+        cout << "5. Get evaluation (x)\n";
         cout << "6. Get the number of real roots\n";
         cout << "7. Get real root(s)\n";
         cout << "------------------------------------------------------------\n";
@@ -110,65 +109,68 @@ void quadraticExpression()
 
         switch (option)
         {
-        case 0:
-        {
-            system("cls");
-            mainMenu();
-            break;
-        }
-        case 1:
-        {
-            quadraticExpression.displayEquation();
-            break;
-        }
-        case 2: // set coefficient(a)
-        {
-            int variableA = inputInteger("\nEnter coefficient(a): ");
-            quadraticExpression.setA(variableA);
+            case 0:
+            {
+                system("cls");
+                mainMenu();
+                break;
+            }
+            case 1:
+            {
+                quadraticExpression.displayEquation();
+                break;
+            }
+            case 2:
+            {
+                // Set coefficient (a)
+                int variableA = inputInteger("\nEnter coefficient (a): ");
+                quadraticExpression.setA(variableA);
 
-            cout << endl << "a = " << quadraticExpression.getA() << endl;
-            break;
-        }
-        case 3: // set coefficient(b)
-        {
+                cout << endl << "a = " << quadraticExpression.getA() << endl;
+                break;
+            }
+            case 3:
+            {
+                // Set coefficient (b)
+                int variableB = inputInteger("\nEnter coefficient (b): ");
+                quadraticExpression.setB(variableB);
 
-            int variableB = inputInteger("\nEnter coefficient(b): ");
-            quadraticExpression.setB(variableB);
+                cout << endl << "b = " << quadraticExpression.getB() << endl;
+                break;
+            }
+            case 4:
+            {
+                // Set coefficient (c)
+                int variableC = inputInteger("\nEnter coefficient (c): ");
+                quadraticExpression.setC(variableC);
 
-            cout << endl << "b = " << quadraticExpression.getB() << endl;
-            break;
-        }
-        case 4: // set coefficient(c)
-        {
-            int variableC = inputInteger("\nEnter coefficient(c): ");
-            quadraticExpression.setC(variableC);
+                cout << endl << "c = " << quadraticExpression.getC() << endl;
+                break;
+            }
+            case 5:
+            {
+                // Set coefficient (x)
+                int variableX = inputInteger("\nEnter coefficient (x): ");
+                quadraticExpression.setX(variableX);
 
-            cout << endl << "c = " << quadraticExpression.getC() << endl;
-            break;
-        }
-        case 5: // set coefficient(x)
-        {
-            int variableX = inputInteger("\nEnter coefficient(x): ");
-            quadraticExpression.setX(variableX);
-
-            cout << endl << "x = " << quadraticExpression.getX() << endl;
-            break;
-        }
-        case 6:
-        {
-            quadraticExpression.numRoots();
-            break;
-        }
-        case 7:
-        {
-            quadraticExpression.getRoots();
-            break;
-        }
-        default:
-        {
-            cout << "\t\tERROR - Invalid option. Please re-enter.";
-            break;
-        }
+                cout << endl << "x = " << quadraticExpression.getX() << endl;
+                break;
+            }
+            case 6:
+            {
+                quadraticExpression.numRoots();
+                break;
+            }
+            case 7:
+            {
+                quadraticExpression.getRoots();
+                break;
+            }
+            default:
+            {
+                cout << "\t\tERROR - Invalid option. Please re-enter.";
+                break;
+            }
         }
 
         // new line
@@ -258,6 +260,7 @@ void pseudorandomMenu()
 
         cout << "\n";
         system("pause");
+
     } while (true);
 }
 
