@@ -20,6 +20,9 @@
     <ClInclude Include="input.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="DATASET200.DAT" />
+    <None Include="DATASET3.DAT" />
+    <None Include="DATASET35.DAT" />
     <None Include="DATASET4.DAT" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

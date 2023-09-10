@@ -35,5 +35,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="DATASET4.DAT" />
+    <None Include="DATASET3.DAT" />
+    <None Include="DATASET35.DAT" />
+    <None Include="DATASET200.DAT" />
   </ItemGroup>
 </Project>
