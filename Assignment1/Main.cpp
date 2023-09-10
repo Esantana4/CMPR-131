@@ -1,16 +1,18 @@
-// Erik Santana
-// 8/22/23
-// CPMR 131 - Professor Q
 /*
+ Erik Santana
+ 8/22/23
+ CPMR 131 - Professor Q
+
 Description:
  This program has 3 options: 1 to convert ASCII Text To ASCII Numbers, 2 to convert a number into diffent bases(2 - 36)
  and 3, a description of statistics of binary files with numerical data inside of them.
- */
+ 
+  Credit: 
+  Joe Bryant & Erik Santana - ASCII Text To ASCII Numbers
+  Saul Merino & John Kim - Base Converter
+  Otoniel torres bernal & Oscar Gallardo - Descriptive Statistics
 
- // Credit: 
- // Joe Bryant & Erik Santana - ASCII Text To ASCII Numbers 
- // Saul Merino & John Kim - Base Converter
- // Otoniel torres bernal & Oscar Gallardo - Descriptive Statistics 
+  */
 
 #include "input.h" // must be on top of the 3 main header files
 #include <iostream> // must be on top of the 3 main header files
