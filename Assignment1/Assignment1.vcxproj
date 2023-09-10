@@ -19,6 +19,9 @@
     <ClInclude Include="DescriptiveStatistics.h" />
     <ClInclude Include="input.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="DATASET4.DAT" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
