@@ -127,16 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Assignment-2--ADT\input.h" />
-    <ClInclude Include="..\..\Assignment-2--ADT\Pseudorandom.h" />
-    <ClInclude Include="..\..\Assignment-2--ADT\QuadraticExpression.h" />
-    <ClInclude Include="..\..\Assignment-2--ADT\Rational.h" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Pseudorandom.cpp" />
+    <ClCompile Include="QuadraticExpression.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Assignment-2--ADT\main.cpp" />
-    <ClCompile Include="..\..\Assignment-2--ADT\Pseudorandom.cpp" />
-    <ClCompile Include="..\..\Assignment-2--ADT\QuadraticExpression.cpp" />
-    <ClCompile Include="..\..\Assignment-2--ADT\Rational.cpp" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="Pseudorandom.h" />
+    <ClInclude Include="QuadraticExpression.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
