@@ -2,14 +2,12 @@
  Erik Santana
  9/4/23
  CPMR 131 - Professor Q
- Description:
- This program has 3 parts:
+
+ Description: This program has 3 parts - 
 
  Part 1 works with a quadratic equation using classes.
  Part 2 creates a custom random seed generator that also uses classes.
  Part 3 does math calculations with rational numbers, also uses a class.
-
- All parts have separate header and implementation files.
 
  Credit:
  Joe Bryant & Erik Santana - Part 1: Quadratic Expression
