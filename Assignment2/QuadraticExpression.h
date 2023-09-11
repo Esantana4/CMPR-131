@@ -14,27 +14,27 @@ public:
     // Post-Condition: no return. No argument constructor. Initializer constructor
     QuadraticExpression();
 
-    // Pre-Condition: parameters - int newA, int newB, int newC, int newX. These parameters are assigned to the private member variables.
+    // Pre-Condition: parameters - int coefficientA, int coefficientB, int coefficientC, int coefficientX. These parameters are assigned to the private member variables.
     // Post-Condition: no return. Argument constructor
-    QuadraticExpression(int newA, int newB, int newC, int newX);
+    QuadraticExpression(int coefficientA, int coefficientB, int coefficientC, int coefficientX);
 
     // Mutators
 
-    // Pre-Condition: parameter int newA is assigned to the private member variable a.
+    // Pre-Condition: parameter int coefficientA is assigned to the private member variable a.
     // Post-Condition: no return. This mutator member function sets/changes the private variable a. 
-    void setA(int newA);
+    void setA(int coefficientA);
 
-    // Pre-Condition: parameter int newB is assigned to the private member variable b.
+    // Pre-Condition: parameter int coefficientB is assigned to the private member variable b.
     // Post-Condition: no return. This mutator member function sets/changes the private variable b. 
-    void setB(int newB);
+    void setB(int coefficientB);
 
-    // Pre-Condition: parameter int newC is assigned to the private member variable c.
+    // Pre-Condition: parameter int coefficientC is assigned to the private member variable c.
     // Post-Condition: no return. This mutator member function sets/changes the private variable c.
-    void setC(int newC);
+    void setC(int coefficientC);
 
-    // Pre-Condition: parameter int newX is assigned to the private member variable x.
+    // Pre-Condition: parameter int coefficientX is assigned to the private member variable x.
     // Post-Condition: no return. This mutator member function sets/changes the private variable x. 
-    void setX(int newX);
+    void setX(int coefficientX);
 
 
     // Accessors

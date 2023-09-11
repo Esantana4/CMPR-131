@@ -60,19 +60,19 @@ void mainMenu()
     {
         switch (option)
         {
-        case 0:
-            system("cls");
-            exit(1);
-            break;
-        case 1:
-            quadraticExpression();
-            break;
-        case 2:
-            pseudorandomMenu();
-            break;
-        case 3:
-            rationalNumber();
-            break;
+            case 0:
+                system("cls");
+                exit(1);
+                break;
+            case 1:
+                quadraticExpression();
+                break;
+            case 2:
+                pseudorandomMenu();
+                break;
+            case 3:
+                rationalNumber();
+                break;
         }
 
         // new line
@@ -123,8 +123,8 @@ void quadraticExpression()
             case 2:
             {
                 // Set coefficient (a)
-                int variableA = inputInteger("\nEnter coefficient (a): ");
-                quadraticExpression.setA(variableA);
+                int coefficientA = inputInteger("\nEnter coefficient (a): ");
+                quadraticExpression.setA(coefficientA);
 
                 cout << endl << "a = " << quadraticExpression.getA() << endl;
                 break;
@@ -132,8 +132,8 @@ void quadraticExpression()
             case 3:
             {
                 // Set coefficient (b)
-                int variableB = inputInteger("\nEnter coefficient (b): ");
-                quadraticExpression.setB(variableB);
+                int coefficientB = inputInteger("\nEnter coefficient (b): ");
+                quadraticExpression.setB(coefficientB);
 
                 cout << endl << "b = " << quadraticExpression.getB() << endl;
                 break;
@@ -141,8 +141,8 @@ void quadraticExpression()
             case 4:
             {
                 // Set coefficient (c)
-                int variableC = inputInteger("\nEnter coefficient (c): ");
-                quadraticExpression.setC(variableC);
+                int coefficientC = inputInteger("\nEnter coefficient (c): ");
+                quadraticExpression.setC(coefficientC);
 
                 cout << endl << "c = " << quadraticExpression.getC() << endl;
                 break;
@@ -150,8 +150,8 @@ void quadraticExpression()
             case 5:
             {
                 // Set coefficient (x)
-                int variableX = inputInteger("\nEnter coefficient (x): ");
-                quadraticExpression.setX(variableX);
+                int coefficientX = inputInteger("\nEnter coefficient (x): ");
+                quadraticExpression.setX(coefficientX);
 
                 cout << endl << "x = " << quadraticExpression.getX() << endl;
                 break;

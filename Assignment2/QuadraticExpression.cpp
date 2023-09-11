@@ -17,45 +17,45 @@ QuadraticExpression::QuadraticExpression()
     x = 0;
 }
 
-// Pre-Condition: parameters - int newA, int newB, int newC, int newX. These parameters are assigned to the private member variables.
+// Pre-Condition: parameters - int coefficientA, int coefficientB, int coefficientC, int coefficientX. These parameters are assigned to the private member variables.
 // Post-Condition: no return. Argument constructor
-QuadraticExpression::QuadraticExpression(int newA, int newB, int newC, int newX)
+QuadraticExpression::QuadraticExpression(int coefficientA, int coefficientB, int coefficientC, int coefficientX)
 {
-    a = newA;
-    b = newB;
-    c = newC;
-    x = newX;
+    a = coefficientA;
+    b = coefficientB;
+    c = coefficientC;
+    x = coefficientX;
 }
 
 
 // Mutators
 
-// Pre-Condition: parameter int newA is assigned to the private member variable a.
+// Pre-Condition: parameter int coefficientA is assigned to the private member variable a.
 // Post-Condition: no return. This mutator member function sets/changes the private variable a. 
-void QuadraticExpression::setA(int newA)
+void QuadraticExpression::setA(int coefficientA)
 {
-    a = newA;
+    a = coefficientA;
 }
 
-// Pre-Condition: parameter int newB is assigned to the private member variable b.
+// Pre-Condition: parameter int coefficientB is assigned to the private member variable b.
 // Post-Condition: no return. This mutator member function sets/changes the private variable b. 
-void QuadraticExpression::setB(int newB)
+void QuadraticExpression::setB(int coefficientB)
 {
-    b = newB;
+    b = coefficientB;
 }
 
-// Pre-Condition: parameter int newC is assigned to the private member variable c.
+// Pre-Condition: parameter int coefficientC is assigned to the private member variable c.
 // Post-Condition: no return. This mutator member function sets/changes the private variable c. 
-void QuadraticExpression::setC(int newC)
+void QuadraticExpression::setC(int coefficientC)
 {
-    c = newC;
+    c = coefficientC;
 }
 
-// Pre-Condition: parameter int newX is assigned to the private member variable x.
+// Pre-Condition: parameter int coefficientX is assigned to the private member variable x.
 // Post-Condition: no return. This mutator member function sets/changes the private variable x. 
-void QuadraticExpression::setX(int newX)
+void QuadraticExpression::setX(int coefficientX)
 {
-    x = newX;
+    x = coefficientX;
 }
 
 
