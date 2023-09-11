@@ -3,7 +3,7 @@
  9/4/23
  CPMR 131 - Professor Q
 
- Description: This program has 3 parts - 
+ Description:
 
  Part 1 works with a quadratic equation using classes.
  Part 2 creates a custom random seed generator that also uses classes.
@@ -79,8 +79,8 @@ void mainMenu()
     } while (true);
 }
 
-// Pre-Condition: 
-// Post-Condition:
+// Pre-Condition: no parameters
+// Post-Condition: no return. Sub menu, user picks an option.
 void quadraticExpression()
 {
     QuadraticExpression quadraticExpression;
